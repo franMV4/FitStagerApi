@@ -1,0 +1,28 @@
+2022-11-21 23:14:41,521 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-11-21 23:14:41,570 INFO org.springframework.boot.StartupInfoLogger [main] Starting GymapiApplication using Java 11.0.13 on DESKTOP-P1HVV89 with PID 17256 (C:\Users\franm\Desktop\Proyecto Final\GymApi\target\classes started by franm in C:\Users\franm\Desktop\Proyecto Final\GymApi)
+2022-11-21 23:14:41,575 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-11-21 23:14:43,515 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-11-21 23:14:43,722 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 187 ms. Found 4 JPA repository interfaces.
+2022-11-21 23:14:45,639 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 7080 (http)
+2022-11-21 23:14:45,671 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-7080"]
+2022-11-21 23:14:45,672 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-11-21 23:14:45,673 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-11-21 23:14:46,418 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-11-21 23:14:46,419 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 4701 ms
+2022-11-21 23:14:46,948 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-11-21 23:14:47,094 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-11-21 23:14:47,584 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-11-21 23:14:47,854 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-11-21 23:14:47,861 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-11-21 23:14:48,336 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-11-21 23:14:48,372 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-11-21 23:14:50,833 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-11-21 23:14:50,848 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-11-21 23:14:51,686 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-11-21 23:14:52,484 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-7080"]
+2022-11-21 23:14:52,623 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 7080 (http) with context path ''
+2022-11-21 23:14:52,644 INFO org.springframework.boot.StartupInfoLogger [main] Started GymapiApplication in 12.088 seconds (JVM running for 13.615)
+2022-11-21 23:20:29,133 INFO org.apache.juli.logging.DirectJDKLog [http-nio-7080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-11-21 23:20:29,133 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-7080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-11-21 23:20:29,136 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-7080-exec-1] Completed initialization in 2 ms
+2022-11-21 23:30:18,753 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-5] Start GetGyms 

@@ -1,0 +1,4 @@
+org\example\gymapi\repository\ActivityClientRepository.class
+org\example\gymapi\controller\ActivityClientController.class
+org\example\gymapi\service\ActivityClientService.class
+org\example\gymapi\service\ActivityClientServiceImpl.class

@@ -1,0 +1,6 @@
+2022-12-13 00:15:25,216 INFO org.example.gymapi.controller.ActivityClientController [http-nio-7080-exec-1] Start GetActivities 
+2022-12-13 00:15:25,216 INFO org.example.gymapi.controller.ActivityClientController [http-nio-7080-exec-10] Start GetActivities 
+2022-12-13 00:15:30,587 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-9] Start GetClients 
+2022-12-13 00:15:30,609 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-3] Start GetClients 
+2022-12-13 00:15:37,385 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-2] Start GetActivities 
+2022-12-13 00:15:37,385 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-5] Start GetActivities 
