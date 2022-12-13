@@ -4,3 +4,157 @@
 2022-12-13 00:15:30,609 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-3] Start GetClients 
 2022-12-13 00:15:37,385 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-2] Start GetActivities 
 2022-12-13 00:15:37,385 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-5] Start GetActivities 
+2022-12-13 00:35:40,055 INFO org.springframework.boot.StartupInfoLogger [main] Starting GymapiApplication using Java 11.0.13 on DESKTOP-P1HVV89 with PID 19604 (C:\Users\franm\Desktop\Proyecto Final\GymApi\target\classes started by franm in C:\Users\franm\Desktop\Proyecto Final\GymApi)
+2022-12-13 00:35:40,055 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-12-13 00:35:40,060 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-13 00:35:40,536 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-13 00:35:40,585 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 41 ms. Found 5 JPA repository interfaces.
+2022-12-13 00:35:41,177 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 7080 (http)
+2022-12-13 00:35:41,184 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-7080"]
+2022-12-13 00:35:41,185 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-12-13 00:35:41,185 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-13 00:35:41,296 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-12-13 00:35:41,297 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 1205 ms
+2022-12-13 00:35:41,401 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-13 00:35:41,440 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-12-13 00:35:41,541 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-13 00:35:41,615 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-13 00:35:41,618 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-12-13 00:35:41,737 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-13 00:35:41,750 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-12-13 00:35:42,367 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-13 00:35:42,376 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-13 00:35:42,605 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-13 00:35:42,826 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-7080"]
+2022-12-13 00:35:42,841 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 7080 (http) with context path ''
+2022-12-13 00:35:42,847 INFO org.springframework.boot.StartupInfoLogger [main] Started GymapiApplication in 3.102 seconds (JVM running for 3.517)
+2022-12-13 00:36:07,987 INFO org.apache.juli.logging.DirectJDKLog [http-nio-7080-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-13 00:36:07,988 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-7080-exec-2] Initializing Servlet 'dispatcherServlet'
+2022-12-13 00:36:07,990 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-7080-exec-2] Completed initialization in 2 ms
+2022-12-13 00:36:08,015 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-2] Start GetGyms 
+2022-12-13 00:36:08,015 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-1] Start GetGyms 
+2022-12-13 00:36:54,530 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-3] Start PostGym 
+2022-12-13 00:36:57,642 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-4] Start GetGyms 
+2022-12-13 00:37:03,305 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-5] Start GetClients 
+2022-12-13 00:37:03,327 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-6] Start GetClients 
+2022-12-13 00:37:04,783 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-7] Start GetGyms 
+2022-12-13 00:37:04,786 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-8] Start GetGyms 
+2022-12-13 00:37:36,048 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-10] Start PostClient 
+2022-12-13 00:37:37,043 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-1] Start GetClients 
+2022-12-13 00:37:43,348 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-2] Start GetGyms 
+2022-12-13 00:37:43,372 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-3] Start GetGyms 
+2022-12-13 00:37:51,505 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-4] Inicio modifyGym
+2022-12-13 00:37:51,744 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-4] Final modifyGym
+2022-12-13 00:37:52,845 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-5] Start GetClients 
+2022-12-13 00:38:00,561 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-8] Start GetClients 
+2022-12-13 00:38:00,674 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-9] Start DeleteClient 8
+2022-12-13 00:38:04,341 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-10] Start GetClients 
+2022-12-13 00:38:04,343 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-1] Start GetClients 
+2022-12-13 00:38:28,236 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-3] Start GetGyms 
+2022-12-13 00:38:28,260 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-4] Start GetGyms 
+2022-12-13 00:38:32,094 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-5] Start GetGyms 
+2022-12-13 00:38:32,233 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-6] Start DeleteGym 12
+2022-12-13 00:38:34,386 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-8] Start GetGyms 
+2022-12-13 00:38:34,386 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-7] Start GetGyms 
+2022-12-13 00:38:41,799 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-1] Start GetGyms 
+2022-12-13 00:38:41,815 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-10] Start GetGyms 
+2022-12-13 00:39:18,786 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-8] Start PostGym 
+2022-12-13 00:39:19,956 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-9] Start GetGyms 
+2022-12-13 00:39:34,965 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-2] Start GetGyms 
+2022-12-13 00:39:55,952 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-6] Start GetGyms 
+2022-12-13 00:39:55,955 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-7] Start GetGyms 
+2022-12-13 00:40:22,757 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-9] Start PostGym 
+2022-12-13 00:40:23,447 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-10] Start GetGyms 
+2022-12-13 00:40:29,110 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-1] Start GetStaffs 
+2022-12-13 00:40:29,110 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-2] Start GetStaffs 
+2022-12-13 00:40:30,728 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-5] Start GetGyms 
+2022-12-13 00:40:30,733 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-3] Start GetGyms 
+2022-12-13 00:40:52,868 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-6] Start PostStaff 
+2022-12-13 00:40:53,756 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-7] Start GetStaffs 
+2022-12-13 00:41:05,194 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-9] Start GetStaffs 
+2022-12-13 00:41:05,630 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-10] Start DeleteStaff 6
+2022-12-13 00:41:07,317 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-1] Start GetStaffs 
+2022-12-13 00:41:07,334 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-2] Start GetStaffs 
+2022-12-13 00:41:11,834 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-5] Start GetActivities 
+2022-12-13 00:41:11,852 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-3] Start GetActivities 
+2022-12-13 00:41:13,386 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-4] Start GetGyms 
+2022-12-13 00:41:13,403 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-6] Start GetStaffs 
+2022-12-13 00:41:13,455 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-7] Start GetGyms 
+2022-12-13 00:41:13,459 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-8] Start GetStaffs 
+2022-12-13 00:41:39,769 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-2] Start PostActivity 
+2022-12-13 00:41:40,882 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-5] Start GetActivities 
+2022-12-13 00:41:54,698 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-4] Start GetGyms 
+2022-12-13 00:41:54,698 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-6] Start GetGyms 
+2022-12-13 00:41:58,135 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-7] Start GetGyms 
+2022-12-13 00:41:58,384 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-8] Start DeleteGym 14
+2022-12-13 00:42:01,478 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-9] Start GetGyms 
+2022-12-13 00:42:01,683 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-10] Start DeleteGym 13
+2022-12-13 00:42:12,734 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-4] Start GetGyms 
+2022-12-13 00:42:12,749 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-6] Start GetGyms 
+2022-12-13 20:04:28,502 INFO org.hibernate.validator.internal.util.Version [background-preinit] HV000001: Hibernate Validator 6.2.3.Final
+2022-12-13 20:04:28,524 INFO org.springframework.boot.StartupInfoLogger [main] Starting GymapiApplication using Java 11.0.13 on DESKTOP-P1HVV89 with PID 23180 (C:\Users\franm\Desktop\Proyecto Final\GymApi\target\classes started by franm in C:\Users\franm\Desktop\Proyecto Final\GymApi)
+2022-12-13 20:04:28,532 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to 1 default profile: "default"
+2022-12-13 20:04:31,139 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2022-12-13 20:04:31,297 INFO org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 115 ms. Found 5 JPA repository interfaces.
+2022-12-13 20:04:33,610 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 7080 (http)
+2022-12-13 20:04:33,643 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing ProtocolHandler ["http-nio-7080"]
+2022-12-13 20:04:33,644 INFO org.apache.juli.logging.DirectJDKLog [main] Starting service [Tomcat]
+2022-12-13 20:04:33,645 INFO org.apache.juli.logging.DirectJDKLog [main] Starting Servlet engine: [Apache Tomcat/9.0.63]
+2022-12-13 20:04:34,616 INFO org.apache.juli.logging.DirectJDKLog [main] Initializing Spring embedded WebApplicationContext
+2022-12-13 20:04:34,617 INFO org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 5931 ms
+2022-12-13 20:04:35,387 INFO org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-12-13 20:04:35,778 INFO org.hibernate.Version [main] HHH000412: Hibernate ORM core version 5.6.9.Final
+2022-12-13 20:04:36,335 INFO org.hibernate.annotations.common.reflection.java.JavaReflectionManager [main] HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-12-13 20:04:36,785 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2022-12-13 20:04:36,809 WARN com.zaxxer.hikari.util.DriverDataSource [main] Registered driver with driverClassName=com.mysql.jdbc.Driver was not found, trying direct instantiation.
+2022-12-13 20:04:37,252 INFO com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2022-12-13 20:04:37,293 INFO org.hibernate.dialect.Dialect [main] HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2022-12-13 20:04:40,196 INFO org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-12-13 20:04:40,217 INFO org.springframework.orm.jpa.AbstractEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2022-12-13 20:04:41,347 WARN org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-12-13 20:04:42,186 INFO org.apache.juli.logging.DirectJDKLog [main] Starting ProtocolHandler ["http-nio-7080"]
+2022-12-13 20:04:42,329 INFO org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 7080 (http) with context path ''
+2022-12-13 20:04:42,346 INFO org.springframework.boot.StartupInfoLogger [main] Started GymapiApplication in 14.855 seconds (JVM running for 16.285)
+2022-12-13 20:05:29,614 INFO org.apache.juli.logging.DirectJDKLog [http-nio-7080-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-12-13 20:05:29,615 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-7080-exec-1] Initializing Servlet 'dispatcherServlet'
+2022-12-13 20:05:29,617 INFO org.springframework.web.servlet.FrameworkServlet [http-nio-7080-exec-1] Completed initialization in 1 ms
+2022-12-13 20:05:29,701 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-1] Start GetClients 
+2022-12-13 20:05:29,701 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-2] Start GetClients 
+2022-12-13 20:06:26,215 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-5] Start GetStaffs 
+2022-12-13 20:06:26,219 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-6] Start GetStaffs 
+2022-12-13 20:09:59,730 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-10] Start GetGyms 
+2022-12-13 20:09:59,730 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-9] Start GetGyms 
+2022-12-13 20:10:16,759 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-1] Start GetGyms 
+2022-12-13 20:10:18,766 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-2] Start GetActivities 
+2022-12-13 20:10:18,786 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-3] Start GetActivities 
+2022-12-13 20:10:20,397 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-4] Start GetGyms 
+2022-12-13 20:10:20,405 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-5] Start GetStaffs 
+2022-12-13 20:10:20,411 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-6] Start GetGyms 
+2022-12-13 20:10:20,436 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-8] Start GetStaffs 
+2022-12-13 20:10:35,017 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-7] Start GetActivities 
+2022-12-13 20:11:09,082 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-6] Start GetActivities 
+2022-12-13 20:11:09,094 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-8] Start GetActivities 
+2022-12-13 20:11:10,302 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-7] Start GetGyms 
+2022-12-13 20:11:10,304 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-9] Start GetGyms 
+2022-12-13 20:11:10,327 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-10] Start GetStaffs 
+2022-12-13 20:11:10,329 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-1] Start GetStaffs 
+2022-12-13 20:11:45,312 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-3] Start PostActivity 
+2022-12-13 20:11:47,797 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-2] Start GetActivities 
+2022-12-13 20:11:53,547 INFO org.example.gymapi.controller.ActivityClientController [http-nio-7080-exec-4] Start GetActivities 
+2022-12-13 20:11:53,563 INFO org.example.gymapi.controller.ActivityClientController [http-nio-7080-exec-5] Start GetActivities 
+2022-12-13 20:11:56,088 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-6] Start GetGyms 
+2022-12-13 20:11:56,105 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-8] Start GetGyms 
+2022-12-13 20:11:59,648 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-7] Start GetStaffs 
+2022-12-13 20:11:59,650 INFO org.example.gymapi.controller.StaffController [http-nio-7080-exec-9] Start GetStaffs 
+2022-12-13 20:19:33,235 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-4] Start GetActivities 
+2022-12-13 20:19:33,236 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-2] Start GetActivities 
+2022-12-13 20:54:03,684 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-5] Start GetActivities 
+2022-12-13 20:54:03,684 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-6] Start GetActivities 
+2022-12-13 20:56:33,941 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-9] Start GetActivities 
+2022-12-13 20:56:33,944 INFO org.example.gymapi.controller.ActivityController [http-nio-7080-exec-10] Start GetActivities 
+2022-12-13 20:56:41,051 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-4] Start GetGyms 
+2022-12-13 20:56:41,071 INFO org.example.gymapi.controller.GymController [http-nio-7080-exec-2] Start GetGyms 
+2022-12-13 20:56:49,430 INFO org.example.gymapi.controller.ActivityClientController [http-nio-7080-exec-1] Start GetActivities 
+2022-12-13 20:56:49,448 INFO org.example.gymapi.controller.ActivityClientController [http-nio-7080-exec-3] Start GetActivities 
+2022-12-13 20:56:57,202 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-5] Start GetClients 
+2022-12-13 20:56:57,217 INFO org.example.gymapi.controller.ClientController [http-nio-7080-exec-6] Start GetClients 

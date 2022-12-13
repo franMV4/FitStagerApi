@@ -34,6 +34,8 @@ public class Activity {
     @Column
     //@NotNull
     private String style;
+
+    //TODO Cambiar en la base de datos a datetime
  @Column
  @JsonFormat(pattern="yyyy-MM-dd")
     private LocalDate date;
